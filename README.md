@@ -1,5 +1,5 @@
 # node-cdxj
-Currently this project only supports reading cdxj files
+Currently this project only supports reading cdxj files but with more reading, witting, and searching modes planed in the future.
 
 ## Example usage
 
@@ -32,3 +32,5 @@ Properties
 
 The properties are lazily transformed to their appropriate values the first time
 the getter for a property is called. Internally they are kept as a raw [Buffer](https://nodejs.org/api/buffer.html)
+
+[![JavaScript Style Guide](https://cdn.rawgit.com/feross/standard/master/badge.svg)](https://github.com/feross/standard)

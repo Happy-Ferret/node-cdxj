@@ -18,9 +18,17 @@
   "bugs": {
     "url": "https://github.com/N0taN3rd/node-cdxj/issues"
   },
+  "scripts": {
+    "lint": "standard | snazzy",
+    "fix-lint": "standard --fix"
+  },
   "dependencies": {
     "binary-split": "^1.0.3",
     "bluebird": "^3.5.0",
     "fs-extra": "^3.0.1"
+  },
+  "devDependencies": {
+    "standard": "^10.0.2",
+    "snazzy": "^7.0.0"
   }
 }
