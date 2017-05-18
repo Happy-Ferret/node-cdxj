@@ -1,0 +1,13 @@
+{
+  "name": "node-cdxj",
+  "version": "1.0.0",
+  "description": "read cdxj files via node.js",
+  "main": "index.js",
+  "author": "John Berlin",
+  "license": "MIT",
+  "dependencies": {
+    "binary-split": "^1.0.3",
+    "bluebird": "^3.5.0",
+    "fs-extra": "^3.0.1"
+  }
+}
