@@ -1,10 +1,23 @@
 {
-  "name": "node-cdxj",
+  "name": "cdxj",
   "version": "1.0.0",
-  "description": "read cdxj files via node.js",
+  "description": "Read cdxj files via node.js",
   "main": "index.js",
   "author": "John Berlin",
-  "license": "MIT",
+  "license": "GPL-3.0",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:N0taN3rd/node-cdxj.git"
+  },
+  "keywords": [
+    "warc",
+    "cdx",
+    "cdxj",
+    "web-archiving"
+  ],
+  "bugs": {
+    "url": "https://github.com/N0taN3rd/node-cdxj/issues"
+  },
   "dependencies": {
     "binary-split": "^1.0.3",
     "bluebird": "^3.5.0",

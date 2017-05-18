@@ -4,7 +4,7 @@ Currently this project only supports reading cdxj files
 ## Example usage
 
 ```js
-const readCDXJ = require('node-cdxj')
+const readCDXJ = require('cdxj')
 
 async function getMeSomeCDXJ () {
   let cdxj = await readCDXJ('<path-to-cdxj-file>')
