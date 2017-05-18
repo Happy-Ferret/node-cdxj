@@ -1,6 +1,6 @@
 # node-cdxj
 Currently this project only supports reading cdxj files but with more reading, witting, and searching modes planed in the future.
-
+[![npm Package](https://img.shields.io/npm/v/cdxj.svg?style=flat-square)](https://www.npmjs.com/package/cdxj)
 ## Example usage
 
 ```js
