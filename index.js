@@ -1,2 +1,1 @@
-const CDXJReader = require('./lib/cdxjReader')
-module.exports = CDXJReader
+module.exports = require('./lib/cdxjReader')

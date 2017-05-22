@@ -23,7 +23,8 @@
   },
   "scripts": {
     "lint": "standard | snazzy",
-    "fix-lint": "standard --fix"
+    "fix-lint": "standard --fix",
+    "doc": "esdoc"
   },
   "dependencies": {
     "binary-split": "^1.0.3",
