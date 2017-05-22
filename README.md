@@ -5,18 +5,29 @@ Currently this project only supports reading cdxj files but with more reading, w
 
 ## Example usage
 
+### Example 1
 ```js
-const readCDXJ = require('cdxj')
+const CDXJReader = require('cdxj')
 
 async function getMeSomeCDXJ () {
-  let cdxj = await readCDXJ('<path-to-cdxj-file>')
+  let cdxj = await CDXJReader.readCDXJ('<path-to-cdxj-file>')
   cdxj.forEach(cdxjEntry => {
      console.log(`The URL in surt form for this entry is: ${cdxjEntry.surt}`)
      console.log(`The raw datetime for this entry is: ${cdxjEntry.dt}`)
      console.log(`The json data for this entry is: ${cdxjEntry.json}`)
   })
 }
+```
 
+### Example 2
+```js
+const CDXJReader = require('cdxj')
+
+const cdxjStream = CDXJReader.createReadStream('<path-to-cdxj-file>')
+
+cdxjStream.on('data', cdxjEntry => { 
+  console.log(cdxjEntry) 
+})
 ```
 
 ## API
