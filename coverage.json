@@ -1,0 +1,19 @@
+{
+  "coverage": "91.66%",
+  "expectCount": 12,
+  "actualCount": 11,
+  "files": {
+    "lib/cdxjEntry.js": {
+      "expectCount": 8,
+      "actualCount": 8,
+      "undocumentLines": []
+    },
+    "lib/cdxjReader.js": {
+      "expectCount": 4,
+      "actualCount": 3,
+      "undocumentLines": [
+        12
+      ]
+    }
+  }
+}

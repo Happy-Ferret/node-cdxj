@@ -1,6 +1,6 @@
 {
   "source": "./lib",
-  "destination": "./docs",
+  "destination": ".",
   "access": [
     "public",
     "protected"

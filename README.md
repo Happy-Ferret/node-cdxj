@@ -1,5 +1,7 @@
 # node-cdxj
-Currently this project only supports reading cdxj files but with more reading, witting, and searching modes planed in the future.
+Read cdxj files produced by [Pywb](https://github.com/ikreymer/pywb) using node.js.
+
+Run `npm install cdxj` or `yarn add cdxj` to get started
 
 [![npm Package](https://img.shields.io/npm/v/cdxj.svg?style=flat-square)](https://www.npmjs.com/package/cdxj)
 
@@ -31,19 +33,7 @@ cdxjStream.on('data', cdxjEntry => {
 ```
 
 ## API
+Full API documentation available at [n0tan3rd.github.io/node-cdxj](https://n0tan3rd.github.io/node-cdxj/)
 
-#### readCDXJ([path-to-cdxj-file])
-
-Returns a Promise that resolves with an array of CDXJEntrys
-or rejects if an error occurred
-
-#### CDXJEntry
-Properties
-- `surt`: returns the CDXJEntries URL key in surt form
-- `dt`: returns the raw (string) datetime associated with the CDXJEntry
-- `json`: returns the parsed JSON data associated with the CDXJEntry
-
-The properties are lazily transformed to their appropriate values the first time
-the getter for a property is called. Internally they are kept as a raw [Buffer](https://nodejs.org/api/buffer.html)
 
 [![JavaScript Style Guide](https://cdn.rawgit.com/feross/standard/master/badge.svg)](https://github.com/feross/standard)
